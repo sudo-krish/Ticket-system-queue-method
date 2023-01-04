@@ -1,0 +1,17 @@
+addPerson:1 >> 1
+addPerson:2 >> 1
+addPerson:3 >> 1
+addPerson:4 >> 1
+addPerson:5 >> 1
+getWindow:1 >> ['1', '2', '3', '4', '5']
+getWindow:2 >> []
+isOpen:1 >> True
+isOpen:2 >> False
+addPerson:6 >> 2
+getWindow:1 >> ['1', '2', '3', '4', '5']
+getWindow:2 >> ['6']
+giveTicket: >> 2
+giveTicket: >> 1
+giveTicket: >> 1
+getWindow:1 >> ['4', '5']
+getWindow:2 >> []
